@@ -120,3 +120,57 @@ a {
     padding: 12px 36px 12px 36px;
     margin-bottom: 0px;
 }
+
+.part-2-image {
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+.part-3 {
+    margin: 116px 159px 137px 141px;
+    padding: 50px 80px 50px 80px;
+    border-radius: 24px;
+    background-color: rgba(78, 71, 255, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.joined-thousand {
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+
+    margin-top: 0px;
+}
+
+#joi {
+    text-align: center;
+}
+
+.part-3-stats {
+    display: flex;
+    justify-content: space-around;
+    gap: 158px;
+}
+
+.stats-numbers {
+    height: 121px;
+    width: 180px;
+    margin: 0px;
+
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    text-align: center;
+}
+
+.stats-numbers-subtitle {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    margin: 0px;
+
+    text-align: center;
+}
