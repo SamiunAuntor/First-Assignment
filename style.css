@@ -49,7 +49,7 @@ a {
     background-color: #4E47FF;
     font-weight: bold;
     padding: 12px 36px 12px 36px;
-    transition: 0.s;
+    transition: 0.3s;
 }
 
 .stay-focused-button:hover {
