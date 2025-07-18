@@ -15,7 +15,7 @@ body {
 }
 
 body {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 a {
@@ -70,18 +70,18 @@ a {
 
 
 .inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
 }
 
 
 .raleway-font {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
 }
 
 .header {
@@ -255,4 +255,104 @@ a {
     font-size: 14px;
     color: rgba(37, 36, 50, 0.5);
     margin: 0;
+}
+
+body {
+    background-color: #F7F9FF;
+    margin: 0;
+    font-family: "Inter";
+}
+
+.cta-section {
+    padding: 80px 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-content {
+    margin-top: -20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1140px;
+    height: 696.77px;
+
+    background-color: white;
+    border-radius: 14px;
+}
+
+.cta-text {
+    text-align: center;
+}
+
+.cta-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.cta-subtitle {
+    font-size: 15px;
+    margin-bottom: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.cta-button {
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 36px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+}
+
+.cta-image img {
+    height: 364.77;
+    width: 840px;
+
+    border-radius: 48px;
+    margin-bottom: 71px;
+}
+
+.form-section {
+    padding: 80px 120px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.form-title {
+    font-size: 36px;
+    margin-bottom: 32px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.contact-form button {
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
 }
