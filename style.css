@@ -11,6 +11,10 @@
 }
 
 body {
+    background-color: #F7F9FF;
+}
+
+body {
   overflow-x: hidden;
 }
 
@@ -173,4 +177,82 @@ a {
     margin: 0px;
 
     text-align: center;
+}
+
+.part-4 {
+    margin: 137px 149px;
+}
+
+.part-4-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 48px;
+    color: #252432;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+
+.testimonial-card {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.06);
+    padding: 32px;
+    width: 366.67px;
+    height: 243px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stars img {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+.testimonial-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #252432;
+    margin: 16px 0 0 0;
+}
+
+.testimonial-description {
+    font-size: 16px;
+    color: rgba(37, 36, 50, 0.75);
+    margin-bottom: 24px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.reviewer-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviewer-name {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    color: #252432;
+}
+
+.review-date {
+    font-size: 14px;
+    color: rgba(37, 36, 50, 0.5);
+    margin: 0;
 }
